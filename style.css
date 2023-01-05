@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@300;400&family=Poppins:wght@400;500;600;700&family=Quicksand&family=Space+Mono&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 2%;
+    text-align: center;
+} 
+
+.main{
+    width: 55.5%;
+
+}
+.bare{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0 1% 0;
+    background-color: rgba(16, 16, 15, 0.619);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+textarea {
+    width: 50em;
+    height: 30em;
+    border-radius: 6px;
+    border-style: none;
+    color: #555555;
+    font-size: 1em;
+    line-height: 1.4em;
+    padding: 5px 8px;
+    background: rgba(0, 0, 0, 0.07);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    resize: none;
+  }
+
+textarea:focus {
+    background: #FFFFFF;
+    outline-width: 0;
+}
+
+.btn {
+	cursor: pointer;
+    width: 30px;
+	height: 30px;
+	border-radius: 3px;
+    border-style: none;
+	box-shadow: 0px 5px 5px rgba(24, 23, 23, 0.802);
+	background: #FFFFFF;
+	margin: 5px;
+    font-size: 20px;
+	transition: 1s;
+}
+
+.btn_bold{
+    background-image: url('icons/bold.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.btn_italic{
+    background-image: url('icons/italic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+
+}
+.btn_striked{
+    background-image: url('icons/strikethrough.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+.btn_color{
+    width: 3em;
+    background-image: url('icons/color.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding-right: 30px;
+}
+
+.btn_fontSize{
+    width: 2em;
+    background-image: url('icons/fontSize.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.btn_link{
+    background-image: url('icons/link.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.btn_gauche{
+    background-image: url('icons/indent.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+.btn_droite{
+    background-image: url('icons/outdent.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.btn_left{
+    background-image: url('icons/left.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.btn_right{
+    background-image: url('icons/right.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.btn_center{
+    background-image: url('icons/center.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.btn_justify{
+    background-image: url('icons/justify.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+/* Effets textes */
+textarea::selection{
+    background-color: rgb(56, 168, 248);
+    color: rgba(0, 0, 0, 0.873);
+}
