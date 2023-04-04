@@ -1,3 +1,14 @@
-<h1 align="center">WYSIWYG</h1>
+# PenIt
 
-<p align="center">Création d’un éditeur de texte avec Javascript.</p>
+PenIt is a text editor also known as WYSIWYG
+
+## Frontend
+
+- HTML
+- CSS
+- Javascript
+
+
+## Things I learned making this project
+- Javascript
+- DOM manipulation
