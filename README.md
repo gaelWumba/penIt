@@ -9,6 +9,6 @@ PenIt is a text editor also known as WYSIWYG
 - Javascript
 
 
-### Things I learned making this project
+### Things I learned will working on this project
 - Javascript
 - DOM manipulation
