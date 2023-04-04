@@ -2,13 +2,13 @@
 
 PenIt is a text editor also known as WYSIWYG
 
-## Frontend
+### Frontend
 
 - HTML
 - CSS
 - Javascript
 
 
-## Things I learned making this project
+### Things I learned making this project
 - Javascript
 - DOM manipulation
